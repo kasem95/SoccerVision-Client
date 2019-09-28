@@ -5,7 +5,7 @@ configure({enforceActions:"observed"});
 
 class Store{
     user = null
-    matches = []
+    matches = [];
 
     insertUser = val =>{
         this.user = val
